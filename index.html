@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Chickens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+    <!--Semantic Tag #1-->
+    <header id="header">
+        <h1>All About Chickens</h1>
+    </header>
+
+    <!--Semantic Tag #2-->
+    <nav id="nav">
+        <ul>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#newsletter-signup">Newsletter Signup</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--Semantic Tag #3-->
+        <!--Content Section #1-->
+        <section>
+            <!--Img With Alt Text-->
+            <img src="chakkens.png" alt="A photograph of six variously colored white, speckled, and brown chickens sitting in dirt under a bush.">
+            <p class="image-caption">A picture of some of my older chickens that I have raised in the past, dirtbathing in what used to be my flowerbed!</p>
+        </section>
+
+        <!--Content Section #2-->
+        <section id="articles">
+            <h2>Articles</h2>
+            <!--Semantic Tag #4-->
+            <article>
+                <h3>My Chicken Raising Past</h3>
+                <p>I've been raising chickens since I was 10 years old. They're very interesting creatures, and each chicken has their own personality and habits. I've had plenty of friendly chickens that would literally run up to the driver-side door of my car when I get home, and I've had chickens that ran off at the sight of me. Raising these birds has been one of my favorite hobbies for over half of my life, and I see them more as pets than farm animals now.</p>
+            </article>
+            <article>
+                <h3>How to Raise Some Hens Of Your Own</h3>
+                <p>To raise some chickens of your own, you'll need a chicken coop, and a fenced-in "run" for the chickens to roam whenever they aren't allowed to roam free. I highly recommend letting them roam free whenever you are home, but if you live in an area where you can't, just be sure their run is sufficiently large. You will also need a feeder (along with some food, of course) and a water container (ideally, one of the standing tower water containers, as those need to only be filled once every few days as opposed to a water bowl). You'll also need a heat lamp to keep them warm in Winter, and some climbing mechanisms inside the coop (I used old wooden ladders personally) to keep them entertained.</p>
+            </article>
+        </section>
+
+        <!--Content Section #3-->
+        <section id="newsletter-signup">
+            <!--Form Element-->
+            <h2>Newsletter Signup</h2>
+            <p>Enter your email here to sign up for my newsletter, where I talk all about raising my chickens!</p>
+            <form id="signup-form">
+                <input type="email" id="email" placeholder="your.email@example.com">
+                <button type="submit">Sign Up!</button>
+            </form>
+            <div><p id="signup-message"></p></div>
+        </section>
+    </main>
+
+    <!--Semantic Tag #5-->
+    <footer id="footer">
+        <p class="footer-p">Mock-website created for the week 2 assignment of Software Development.</p>
+        <p class="footer-p" id="blue-mode-text">Not a fan of purple? Try blue mode!</p>
+        <form id="blue-mode-form">
+            <button type="submit" id="blue-mode-button">Blue Mode</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
